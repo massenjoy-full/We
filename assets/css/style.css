@@ -3,21 +3,21 @@
 	font-family: "Newake";
 	font-style: normal;
 	font-weight: 400;
-	src: url('/assets/fonts/NewakeFont-Demo.otf') format("opentype");
+	src: url('../fonts/NewakeFont-Demo.otf') format("opentype");
 }
 
 @font-face {
 	font-family: "Inter-Regular";
 	font-style: normal;
 	font-weight: 400;
-	src: url("/assets/fonts/Inter-Regular.ttf") format("truetype");
+	src: url("../fonts/Inter-Regular.ttf") format("truetype");
 }
 
 @font-face {
 	font-family: "Gotham-Book";
 	font-style: normal;
 	font-weight: 400;
-	src: url('/assets/fonts/gotham-book.otf') format("opentype");
+	src: url('../fonts/gotham-book.otf') format("opentype");
 }
 
 /* Resets */
@@ -169,12 +169,12 @@ header {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: url('/assets/images/hero-bg.png') center/cover no-repeat;
+	background: url('../images/hero-bg.png') center/cover no-repeat;
 	z-index: -1;
 }
 
 .hero h1 {
-	background: url('/assets/images/main-text-bg.jpeg') center/cover;
+	background: url('../images/main-text-bg.jpeg') center/cover;
 	-webkit-background-clip: text;
 	color: transparent;
 }
@@ -206,7 +206,7 @@ header {
 	position: absolute;
 	width: 800px;
 	height: 1200px;
-	background: url('/assets/images/ellipse.svg') center/contain no-repeat;
+	background: url('../images/ellipse.svg') center/contain no-repeat;
 }
 
 .faq-bg-element::before {
@@ -241,23 +241,23 @@ header {
 }
 
 .bi-instagram {
-	background-image: url('/assets/images/instagram.svg');
+	background-image: url('../images/instagram.svg');
 }
 
 .bi-facebook {
-	background-image: url('/assets/images/facebook.svg');
+	background-image: url('../images/facebook.svg');
 }
 
 .bi-twitter {
-	background-image: url('/assets/images/twitter.svg');
+	background-image: url('../images/twitter.svg');
 }
 
 .bi-youtube {
-	background-image: url('/assets/images/youtube.svg');
+	background-image: url('../images/youtube.svg');
 }
 
 .bi-tiktok {
-	background-image: url('/assets/images/tiktok.svg');
+	background-image: url('../images/tiktok.svg');
 }
 
 /* Footer */
@@ -299,7 +299,7 @@ header {
 	position: absolute;
 	width: 150px;
 	height: 125px;
-	background-image: url('/assets/images/frame-1.svg');
+	background-image: url('../images/frame-1.svg');
 	background-size: cover;
 }
 
